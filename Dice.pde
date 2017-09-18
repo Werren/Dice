@@ -24,18 +24,19 @@ class Die //models one single dice cube
   }
   void show()
   {
-    if(Math.random()<=0.16666667)
+    if(Math.random()<=1)
     {
       rect(12, 12, 50, 50, 10);
     fill(0);
     //ellipse(50-13, 50-13, 12, 12);
-    ellipse(65, 30, 12, 12);
+    
     }
   else if(Math.random()<=0.3333333333)
     {
       rect(12, 12, 50, 50, 10);
     fill(0);
-    ellipse(50-13, 50-13, 12, 12);
+     ellipse(47, 28, 12, 12);
+    ellipse(29, 45, 12, 12);
     }
    else
     {
@@ -45,5 +46,3 @@ class Die //models one single dice cube
     }
   }
 }
-
-
