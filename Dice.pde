@@ -1,11 +1,11 @@
 void setup()
 {
-  noLoop();
   size(549, 670);
+  noLoop();
 }
 void draw()
 {
-
+  background(255);
   int total=0;
   total=0;
   for (int toot= 0; toot <= 500; toot+=55)
@@ -16,12 +16,10 @@ void draw()
       i.show();
       i.roll();
       total+=i.roll;
-     
-   
     }
   }
   fill(0);
-      text(total +" is the sum of all of these dice!",300,660);
+  text(total +" is the sum of all of these dice!", 300, 660);
 }
 void mousePressed()
 {
