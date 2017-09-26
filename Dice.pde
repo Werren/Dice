@@ -5,7 +5,7 @@ void setup()
 }
 void draw()
 {
-  background(255);
+
   int total=0;
   total=0;
   for (int toot= 0; toot <= 500; toot+=55)
