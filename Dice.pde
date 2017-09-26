@@ -29,12 +29,11 @@ void mousePressed()
 }
 class Die //models one single dice cube
 {
-  int myX, myY, roll, sum, total;
+  int myX, myY, roll, total;
   Die(int x, int y) //constructor
   {
     myX=x;
     myY=y;
-    sum=0;
     roll();
   }
   void roll()
