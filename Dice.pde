@@ -8,11 +8,11 @@ void draw()
   background(255);
   int total=0;
   total=0;
-  for (int toot= 0; toot <= 500; toot+=55)
+  for (int x= 0; x <= 500; x+=55)
   {
-    for (int shite= 0; shite <= 550; shite+=55)
+    for (int y= 0; y <= 550; y+=55)
     {
-      Die i = new Die(shite, toot);
+      Die i = new Die(y, x);
       i.show();
       i.roll();
       total+=i.roll;
