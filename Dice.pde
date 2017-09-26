@@ -14,7 +14,7 @@ void draw()
     {
       Die i = new Die(y, x);
       i.show();
-      i.roll();
+
       total+=i.roll;
     }
   }
